@@ -1,0 +1,10 @@
+# CSS tips
+https://saucelabs.com/resources/blog/selenium-tips-css-selectors
+
+# Button to click
+https://stackoverflow.com/questions/11343017/how-to-click-an-option-element-with-webdriver
+
+https://stackoverflow.com/questions/21350605/python-selenium-click-on-button
+
+# Pandas melt to transform columns
+https://stackoverflow.com/questions/28654047/convert-columns-into-rows-with-pandas
