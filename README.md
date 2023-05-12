@@ -10,10 +10,10 @@
 * Dill
 
 ## Python Script
-1. [input.py](): To store indicator input samples.
-2. [indicator.py](): To scrap all indicator values such as _Subsektor_, _Komoditas_, _Level_, _Provinsi_, _Kabupaten_, _Tahun Awal_, and _Tahun Akhir_
-3. [scraper.py](): To scrap a table based on indicator input in the [input.py]()
-4. [etl.py](): To run all script from extracting indicator values and tables, transform the table into tabular format dan save it as csv.
+1. [input.py](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/src/input.py): To store indicator input samples.
+2. [indicator.py](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/src/indicator.py): To scrap all indicator values such as _Subsektor_, _Komoditas_, _Level_, _Provinsi_, _Kabupaten_, _Tahun Awal_, and _Tahun Akhir_
+3. [scraper.py](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/src/scraper.py): To scrap a table based on indicator input in the [input.py]()
+4. [etl.py](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/src/etl.py): To run all scripts that extract indicator values and tables, transform the table into tabular format dan save it as csv.
 
 ## Tasks
 The main tasks of this project as follows:
@@ -21,7 +21,7 @@ The main tasks of this project as follows:
 2. Extract a table based on specific indicators using Selenium and transform it into tabular format.
 
 ### Workflow for Scrapping all Indicator values
-Please refer to [indicator.py]() for the code.
+Please refer to [indicator.py](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/src/indicator.py) for the code.
 
 1. Inspect all indicator input page source to gather the input we need to scrap. In this case, the following are the indicators to be scraped.
 ```python
@@ -72,7 +72,7 @@ INDICATOR_ID_LIST = [
 5. Collect all extracted dictionary into one binary file [indicator_input_dict.bin](). The reason to save as binary in order to avoid JSON parsing problem.
 
 ### Workflow for Scrapping table based on indicator input
-Please refer to [etl.py]() and [scraper.py]() for the code.
+Please refer to [etl.py](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/src/etl.py) and [scraper.py](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/src/scraper.py) for the code.
 
 1. Prepare the indicator input. As example:
 ```python
@@ -125,4 +125,4 @@ An output example:
  Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | LUAS PANEN    | Ha         | 1972      | "0,00"     
 
 
-8. Save the table as csv. The saved file is [DataKeluaranIndikator_jagung_kabupaten_1970_2023.csv]()
+8. Save the table as csv. The saved file is [DataKeluaranIndikator_jagung_kabupaten_1970_2023.csv](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/data/DataKeluaranIndikator_jagung_kabupaten_1970_2023.csv)
