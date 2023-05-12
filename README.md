@@ -116,13 +116,18 @@ An output example:
 
  **subsektor**  | **komoditas** | **prov** | **kab**        | **Indikator** | **Satuan** | **Tahun** | **Jumlah** 
 ----------------|---------------|----------|----------------|---------------|------------|-----------|------------
- Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | LUAS PANEN    | Ha         | 1970      | "0,00"     
- Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKSI      | Ton        | 1970      | "0,00"     
- Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKTIVITAS | Kuintal/Ha | 1970      | "0,00"     
- Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | LUAS PANEN    | Ha         | 1971      | "0,00"     
- Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKSI      | Ton        | 1971      | "0,00"     
- Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKTIVITAS | Kuintal/Ha | 1971      | "0,00"     
- Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | LUAS PANEN    | Ha         | 1972      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | LUAS PANEN    | Ha         | 2020      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKSI      | Ton        | 2020      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKTIVITAS | Kuintal/Ha | 2020      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | LUAS PANEN    | Ha         | 2021      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKSI      | Ton        | 2021      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKTIVITAS | Kuintal/Ha | 2021      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | LUAS PANEN    | Ha         | 2022      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKSI      | Ton        | 2022      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKTIVITAS | Kuintal/Ha | 2022      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | LUAS PANEN    | Ha         | 2023      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKSI      | Ton        | 2023      | "0,00"     
+ Tanaman Pangan | JAGUNG        | Aceh     | Kab\. Simeulue | PRODUKTIVITAS | Kuintal/Ha | 2023      | "0,00"         
 
 
 8. Save the table as csv. The saved file is [DataKeluaranIndikator_jagung_kabupaten_1970_2023.csv](https://github.com/irfan-fadhlurrahman/bdsp-scrapping-project/blob/main/data/DataKeluaranIndikator_jagung_kabupaten_1970_2023.csv)
