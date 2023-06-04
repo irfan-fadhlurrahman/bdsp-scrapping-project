@@ -1,6 +1,7 @@
-requests
 selenium
-beautifulsoup4
+webdriver-manager
 pandas
 numpy
 dill
+python-dotenv
+pymongo

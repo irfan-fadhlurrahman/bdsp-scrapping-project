@@ -1,8 +1,11 @@
+archived
 chromedriver
 .venv
 
 chromedriver_linux64.zip
 google-chrome-stable_current_amd64.deb
+
+*.bin
 
 **/__pycache__
 **/.ipynb_checkpoints

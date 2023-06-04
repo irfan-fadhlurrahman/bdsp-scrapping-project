@@ -1,0 +1,471 @@
+<html><head>
+		<!-- Show a message -->
+		<noscript>You don't have javascript enabled! This Web Doesn't Work Correctly Without It, Please download Google Chrome Or Firefox!</noscript>
+		<meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="BDSP Web Application">
+    <meta name="author" content="Departemen Kementerian RI">
+	<title>BDSP</title>
+	<link rel="shortcut icon" type="image/x-icon" href="https://bdsp2.pertanian.go.id/bdsp/assets/img/Departemen_Pertanian.ico	">
+	
+	<!-- Bootstrap -->
+	<link rel="stylesheet" type="text/css" href="https://bdsp2.pertanian.go.id/bdsp/plugins/bootstrap/css/bootstrap.min.css">
+
+	<!-- themes -->
+	<link rel="stylesheet" type="text/css" href="https://bdsp2.pertanian.go.id/bdsp/assets/theme/theme1/css/style1.css	">
+
+	<!-- Font Awesome -->
+	<link rel="stylesheet" type="text/css" href="https://bdsp2.pertanian.go.id/bdsp/plugins/fontawesome/css/font-awesome.min.css">
+	
+	<!-- DataTables -->
+	<link rel="stylesheet" type="text/css" href="https://bdsp2.pertanian.go.id/bdsp/plugins/datatables/dataTables.bootstrap.css">
+
+	<!-- Jquery UI -->
+	<link rel="stylesheet" href="https://bdsp2.pertanian.go.id/bdsp/plugins/jqueryui/css/jquery-ui.min.css">
+	<link rel="stylesheet" href="https://bdsp2.pertanian.go.id/bdsp/plugins/jqueryui/css/jquery-ui.structure.min.css">
+	<link rel="stylesheet" href="https://bdsp2.pertanian.go.id/bdsp/plugins/jqueryui/css/jquery-ui.theme.min.css">
+	
+	<!-- loading bar -->
+	<link rel="stylesheet" href="https://bdsp2.pertanian.go.id/bdsp/plugins/loadingbar/css/loadingbar.css">
+	
+	<style>
+		h1 {
+			font-size: 30px;
+			font-size: 3.5vw;
+		}
+
+		#footerTxt #footerBtn {
+			font-size: 14px;
+			font-size: 1vw;
+		}
+	</style>
+	
+	<!-- Jquery -->
+	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script type="text/javascript" async="" src="https://www.googletagmanager.com/gtag/js?id=G-8Q4BMH31EM&amp;l=dataLayer&amp;cx=c"></script><script src="https://bdsp2.pertanian.go.id/bdsp/plugins/jquery/jquery-1.12.0.min.js"></script>
+	<script src="https://bdsp2.pertanian.go.id/bdsp/plugins/jquery/jquery.redirect.js"></script>
+	
+	<!-- jQuery UI 1.11.4 -->
+    <script src="https://bdsp2.pertanian.go.id/bdsp/plugins/jqueryui/js/jquery-ui.min.js"></script>
+    <!-- Resolve conflict in jQuery UI tooltip with Bootstrap tooltip -->
+    <script>
+      $.widget.bridge('uibutton', $.ui.button);
+    </script>
+		
+		<!-- Bootstrap -->
+		<script src="https://bdsp2.pertanian.go.id/bdsp/plugins/bootstrap/js/bootstrap.min.js"></script>
+		
+    <!-- Bootstrap WYSIHTML5 -->
+    <script src="https://bdsp2.pertanian.go.id/bdsp/plugins/bootstrap-wysihtml5/bootstrap3-wysihtml5.all.min.js"></script>
+
+    <!-- Jquery Loading Bar -->
+    <script src="https://bdsp2.pertanian.go.id/bdsp/plugins/loadingbar/js/jquery.loadingbar.js"></script>
+	<!-- Global site tag (gtag.js) - Google Analytics -->
+<!-- Global site tag (gtag.js) - Google Analytics -->
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-107417379-1"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+
+  gtag('config', 'UA-107417379-1');
+</script>
+
+
+	</head>
+
+	<body>
+	 <!-- Navigation -->
+    <nav class="navbar navbar-default navbar-green navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a href="https://bdsp2.pertanian.go.id/bdsp/id/home" class="pull-left"><img class="hidden-xs" width="50" height="50" src="https://bdsp2.pertanian.go.id/bdsp/assets/img/Departemen_Pertanian.ico	"></a>
+                <a href="https://bdsp2.pertanian.go.id/bdsp/id/home" class="pull-left"><img class="visible-xs" width="50" height="50" src="https://bdsp2.pertanian.go.id/bdsp/assets/img/Departemen_Pertanian.ico	"></a>
+                <p class="navbar-text">KEMENTERIAN PERTANIAN REPUBLIK INDONESIA</p>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav navbar-right">
+                    <li>
+                        <a href="https://bdsp2.pertanian.go.id/bdsp/id/komoditas">Komoditas</a>
+                    </li>
+                    <li>
+                        <a href="https://bdsp2.pertanian.go.id/bdsp/id/indikator">Indikator</a>
+                    </li>
+                    <li>
+                        <a href="https://bdsp2.pertanian.go.id/bdsp/id/lokasi">Lokasi</a>
+                    </li>
+                    <!-- <li >
+                        <a href="pencariandata">Pencarian Data</a>
+                    </li>
+                    <li>
+                        <a href="survei">Survei WEB</a>
+                    </li> -->
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    
+  	<div class="container-fluid">
+        <div id="judul" class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+                <h1 class="page-header text-center">Pencarian data dengan keluaran berdasarkan <b>Indikator</b></h1>
+            </div>
+        </div>
+       
+        <div class="row">
+            <div class="col-md-12 col-xs-12 col-sm-12">
+            	<div id="content" style="padding-bottom: 70px;">
+                <link rel="stylesheet" type="text/css" href="//cdn.datatables.net/1.10.4/css/jquery.dataTables.css">
+<script type="text/javascript" language="javascript" src="//code.jquery.com/jquery-3.5.1.js"></script>
+<script type="text/javascript" language="javascript" src="//cdn.datatables.net/1.13.2/js/jquery.dataTables.min.js"></script>
+<script type="text/javascript" language="javascript" src="//cdn.datatables.net/buttons/2.3.4/js/dataTables.buttons.min.js"></script>	
+<script type="text/javascript" language="javascript" src="//cdnjs.cloudflare.com/ajax/libs/jszip/3.1.3/jszip.min.js"></script>	
+<script type="text/javascript" language="javascript" src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/pdfmake.min.js"></script>
+<script type="text/javascript" language="javascript" src="//cdnjs.cloudflare.com/ajax/libs/pdfmake/0.1.53/vfs_fonts.js"></script>	
+<script type="text/javascript" language="javascript" src="//cdn.datatables.net/buttons/2.3.4/js/buttons.html5.min.js"></script>	
+<script type="text/javascript" language="javascript" src="//cdn.datatables.net/buttons/2.3.4/js/buttons.print.min.js"></script>	
+
+
+<form role="form" id="frmFilter" name="frmFilter">
+	<div class="row">
+		<div class="col-md-6 col-xs-12 col-sm-12">
+			<div class="form-group">
+				<input type="hidden" id="modul" value="indikator">
+				<select class="form-control" id="subsektor" name="subsektor">
+					<option value="00">-- Pilih Subsektor --</option>
+					<option value="01">Tanaman Pangan</option><option value="02">Perkebunan</option><option value="03">Peternakan</option><option value="04">Hortikultura</option>				</select>
+				<select class="form-control" id="komoditas" name="komoditas"><option selected="selected" value="00">--- Pilih Komoditas ---</option><option value="01168">ADENIUM</option><option value="01167">AGLAOENEMA</option><option value="01001">ALPUKAT</option><option value="01136">ANGGREK</option><option value="01164">ANGGUR</option><option value="01137">ANTHURIUM BUNGA</option><option value="01177">ANTHURIUM DAUN</option><option value="01153">ANYELIR</option><option value="01165">APEL</option><option value="01002">BAWANG DAUN</option><option value="01003">BAWANG MERAH</option><option value="01006">BAWANG PUTIH</option><option value="01011">BAYAM</option><option value="01012">BELIMBING</option><option value="01016">BUNCIS</option><option value="01133">CABE BESAR</option><option value="01132">CABE RAWIT</option><option value="01178">CALADIUM</option><option value="01174">CORDYLENE</option><option value="01175">DIEFFENBACHIA</option><option value="01155">DRACAENA</option><option value="01152">DRINGO</option><option value="01022">DUKU / LANGSAT</option><option value="01023">DURIAN</option><option value="01169">EUPHORBIA</option><option value="01154">GERBERA/HERBRAS</option><option value="01138">GLADIOL</option><option value="01139">HELICONIA</option><option value="01163">JAHE</option><option value="01130">JAMBU AIR</option><option value="01028">JAMBU BIJI</option><option value="01122">JAMUR</option><option value="01180">JENGKOL</option><option value="01131">JERUK BESAR</option><option value="01162">JERUK SIAM</option><option value="01033">KACANG MERAH</option><option value="01034">KACANG PANJANG</option><option value="01038">KANGKUNG</option><option value="01156">KAPULAGA</option><option value="01151">KEJIBELING</option><option value="01115">KEMBANG KOL</option><option value="01146">KENCUR</option><option value="01043">KENTANG</option><option value="01044">KETIMUN</option><option value="01046">KOL / KUBIS</option><option value="01140">KRISAN</option><option value="01147">KUNYIT</option><option value="01048">LABU SIAM</option><option value="01148">LEMPUYANG</option><option value="01145">LENGKUAS</option><option value="01182">LIDAH BUAYA</option><option value="01052">LOBAK</option><option value="01183">MAHKOTA DEWA</option><option value="01054">MANGGA</option><option value="01055">MANGGIS</option><option value="01161">MARKISA</option><option value="01141">MAWAR</option><option value="01143">MELATI</option><option value="01134">MELINJO</option><option value="01056">MELON</option><option value="01158">MENGKUDU/PACE</option><option value="01172">MONSTERA</option><option value="01057">NANGKA / CEMPEDAK</option><option value="01058">NENAS</option><option value="01171">PAKIS</option><option value="01144">PALEM</option><option value="01181">PAPRIKA</option><option value="01062">PEPAYA</option><option value="01135">PETAI</option><option value="01063">PETSAI / SAWI</option><option value="01170">PHYLODENDRON</option><option value="01064">PISANG</option><option value="01066">RAMBUTAN</option><option value="01067">SALAK</option><option value="01159">SAMBILOTO</option><option value="01176">SANSEVIERRIA</option><option value="01069">SAWO</option><option value="01142">SEDAP MALAM</option><option value="01070">SEMANGKA</option><option value="01071">SIRSAK</option><option value="01173">SOKA</option><option value="01166">STRAWBERRY</option><option value="01072">SUKUN</option><option value="01150">TEMUIRENG</option><option value="01160">TEMUKUNCI</option><option value="01149">TEMULAWAK</option><option value="01075">TERUNG</option><option value="01076">TOMAT</option><option value="01079">WORTEL</option></select>
+				<select class="form-control" id="level" name="level">
+					<option value="00">-- Pilih Level --</option>
+					<option value="01">Nasional</option>
+					<option value="02">Provinsi</option>
+					<option value="03">Kabupaten</option>
+				</select>
+				<select class="form-control" id="prov" name="prov"><option selected="selected" value="00">--- Pilih Provinsi ---</option><option value="11">Aceh</option><option value="12">Sumatera Utara</option><option value="13">Sumatera Barat</option><option value="14">Riau</option><option value="15">Jambi</option><option value="16">Sumatera Selatan</option><option value="17">Bengkulu</option><option value="18">Lampung</option><option value="19">Kepulauan Bangka Belitung</option><option value="21">Kepulauan Riau</option><option value="31">Daerah Khusus Ibukota Jakarta</option><option value="32">Jawa Barat</option><option value="33">Jawa Tengah</option><option value="34">Daerah Istimewa Yogyakarta</option><option value="35">Jawa Timur</option><option value="36">Banten</option><option value="51">Bali</option><option value="52">Nusa Tenggara Barat</option><option value="53">Nusa Tenggara Timur</option><option value="61">Kalimantan Barat</option><option value="62">Kalimantan Tengah</option><option value="63">Kalimantan Selatan</option><option value="64">Kalimantan Timur</option><option value="65">Kalimantan Utara</option><option value="71">Sulawesi Utara</option><option value="72">Sulawesi Tengah</option><option value="73">Sulawesi Selatan</option><option value="74">Sulawesi Tenggara</option><option value="75">Gorontalo</option><option value="76">Sulawesi Barat</option><option value="81">Maluku</option><option value="82">Maluku Utara</option><option value="91">Papua Barat</option><option value="94">Papua</option></select>
+				<select class="form-control" id="kab" name="kab"><option selected="selected" value="00">--- Pilih Kabupaten ---</option><option value="01">Kab. Pacitan</option><option value="02">Kab. Ponorogo</option><option value="03">Kab. Trenggalek</option><option value="04">Kab. Tulungagung</option><option value="05">Kab. Blitar</option><option value="06">Kab. Kediri</option><option value="07">Kab. Malang</option><option value="08">Kab. Lumajang</option><option value="09">Kab. Jember</option><option value="10">Kab. Banyuwangi</option><option value="11">Kab. Bondowoso</option><option value="12">Kab. Situbondo</option><option value="13">Kab. Probolinggo</option><option value="14">Kab. Pasuruan</option><option value="15">Kab. Sidoarjo</option><option value="16">Kab. Mojokerto</option><option value="17">Kab. Jombang</option><option value="18">Kab. Nganjuk</option><option value="19">Kab. Madiun</option><option value="20">Kab. Magetan</option><option value="21">Kab. Ngawi</option><option value="22">Kab. Bojonegoro</option><option value="23">Kab. Tuban</option><option value="24">Kab. Lamongan</option><option value="25">Kab. Gresik</option><option value="26">Kab. Bangkalan</option><option value="27">Kab. Sampang</option><option value="28">Kab. Pamekasan</option><option value="29">Kab. Sumenep</option><option value="71">Kota Kediri</option><option value="72">Kota Blitar</option><option value="73">Kota Malang</option><option value="74">Kota Probolinggo</option><option value="75">Kota Pasuruan</option><option value="76">Kota Mojokerto</option><option value="77">Kota Madiun</option><option value="78">Kota Surabaya</option><option value="79">Kota Batu</option></select>
+			</div>
+		</div>
+
+		<div class="col-md-6 col-xs-12 col-sm-12">
+			<div class="form-group">
+                <div style="display:none">
+				<select class="form-control" id="satuan" name="satuan">
+					<option value="00">-- Pilih Satuan --</option>
+									</select>
+				</div>
+
+				<select class="form-control" id="sts_angka" name="sts_angka" style="display:none">
+					<!--<option value="00">-- Pilih Status Angka --</option>
+					<option value="99">Status saat ini</option>-->
+					<option value="6">Angka Tetap</option>
+					<option value="1">Angka ramalan I               </option><option value="2">Angka ramalan II              </option><option value="3">Angka ramalan III             </option><option value="4">Angka sementara               </option><option value="5">Angka Diperbaiki              </option><option value="6">Angka tetap                   </option><option value="7">Angka perkiraan/estimasi      </option><option value="8">Angka sasaran                 </option><option value="9">Angka sangat sementara        </option><option value="10">Angka sangat sangat sementara </option><option value="11">Angka Estimasi                </option>				</select>
+				<select class="form-control" id="sumb_data" name="sumb_data" style="display:none"><option selected="selected" value="00">--- Pilih Sumber Data ---</option><option value="01">Kementerian Pertanian         </option><option value="12">Badan Pusat Statistik         </option></select>
+					<div class="row">
+					<div class="col-md-6 col-xs-12 col-sm-12">
+						<select class=" form-control" id="tahunAwal" name="tahunAwal">
+							<option value="00">-- Pilih Tahun Awal --</option>
+							<option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option>						</select>
+					</div>
+					<div class="col-md-6 col-xs-12 col-sm-12">
+						<select class=" form-control" id="tahunAkhir" name="tahunAkhir">
+							<option value="00">-- Pilih Tahun Akhir --</option>
+							<option value="1970">1970</option><option value="1971">1971</option><option value="1972">1972</option><option value="1973">1973</option><option value="1974">1974</option><option value="1975">1975</option><option value="1976">1976</option><option value="1977">1977</option><option value="1978">1978</option><option value="1979">1979</option><option value="1980">1980</option><option value="1981">1981</option><option value="1982">1982</option><option value="1983">1983</option><option value="1984">1984</option><option value="1985">1985</option><option value="1986">1986</option><option value="1987">1987</option><option value="1988">1988</option><option value="1989">1989</option><option value="1990">1990</option><option value="1991">1991</option><option value="1992">1992</option><option value="1993">1993</option><option value="1994">1994</option><option value="1995">1995</option><option value="1996">1996</option><option value="1997">1997</option><option value="1998">1998</option><option value="1999">1999</option><option value="2000">2000</option><option value="2001">2001</option><option value="2002">2002</option><option value="2003">2003</option><option value="2004">2004</option><option value="2005">2005</option><option value="2006">2006</option><option value="2007">2007</option><option value="2008">2008</option><option value="2009">2009</option><option value="2010">2010</option><option value="2011">2011</option><option value="2012">2012</option><option value="2013">2013</option><option value="2014">2014</option><option value="2015">2015</option><option value="2016">2016</option><option value="2017">2017</option><option value="2018">2018</option><option value="2019">2019</option><option value="2020">2020</option><option value="2021">2021</option><option value="2022">2022</option><option value="2023">2023</option>						</select>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</form>
+
+<div class="row no-pad">
+	<div class="col-md-1 col-xs-1 col-sm-1">
+			<button id="search" class="btn btn-info"><i class="fa fa-search"></i> Cari</button>
+	</div>
+	
+	<div class="col-md-1 col-xs-1 col-sm-1">
+			<button id="excel" class="btn btn-info"><i class="fa fa-file-excel-o"></i> Excel</button>
+	</div>	
+	
+</div>
+
+<div class="row">
+	<div class="col-md-12 col-xs-12 col-sm-12">
+		<div id="loader"></div>
+		<div id="result-box" style="display:none">
+			<div id="result"></div>
+			<div id="button-box">
+				<div class="row no-pad">
+					<div class="col-md-1 col-xs-1 col-sm-1">
+						<button id="back" class="btn btn-info"><i class="fa fa-arrow-left"></i> Back</button>
+					</div>
+					
+					<div class="col-md-1 col-xs-1 col-sm-1">
+						<button id="excel1" class="btn btn-info"><i class="fa fa-file-excel-o"></i> Excel</button>
+					</div>
+			
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<div class="row top-buffer"></div>
+
+	
+
+<script type="text/javascript">
+	function getData(){
+		var pdata = $("#frmFilter").serializeArray();
+
+		if($("#subsektor").length>0){
+			var subsektorcd = $("#subsektor").val(),
+			subsektornm = $("#subsektor option:selected").text();
+			pdata.push({name:'subsektorcd',value: subsektorcd});
+			pdata.push({name:'subsektornm',value: subsektornm});
+		}
+
+		if($("#level").length>0){
+			var level = $("#level").val(),
+			levelnm = $("#level option:selected").text();
+			pdata.push({name:'level',value: level});
+			pdata.push({name:'levelnm',value: levelnm});
+		}
+
+		if($("#prov").length>0){
+			var prov = $("#prov").val(),
+			provnm = $("#prov option:selected").text();
+			pdata.push({name:'prov',value: prov});
+			pdata.push({name:'provnm',value: provnm});
+		}
+
+		if($("#kab").length>0){
+			var kab = $("#kab").val(),
+			kabnm = $("#kab option:selected").text();
+			pdata.push({name:'kab',value: kab});
+			pdata.push({name:'kabnm',value: kabnm});
+		}
+
+		if($("#kec").length>0){
+			var kec = $("#kec").val(),
+			kecnm = $("#kec option:selected").text();
+			pdata.push({name:'kec',value: kec});
+			pdata.push({name:'kecnm',value: kecnm});
+		}
+
+		if($("#sts_angka").length>0){
+			var sts_angka = $("#sts_angka").val(),
+			sts_angkanm = $("#sts_angka option:selected").text();
+			pdata.push({name:'sts_angka',value: sts_angka});
+			pdata.push({name:'sts_angkanm',value: sts_angkanm});
+		}
+
+		if($("#sumb_data").length>0){
+			var sumb_data = $("#sumb_data").val(),
+			sumb_datanm = $("#sumb_data option:selected").text();
+			pdata.push({name:'sumb_data',value: sumb_data});
+			pdata.push({name:'sumb_datanm',value: sumb_datanm});
+		}
+
+		if (($("#tahunAwal").length>0) && ($("#tahunAkhir").length>0))  {
+			var satuannm = $("#satuan option:selected").text();
+			pdata.push({name:'satuannm',value: satuannm});
+		}
+
+		if($("#komoditas").length>0){
+			var komoditas = $("#komoditas").val(),
+			komoditasnm = $("#komoditas option:selected").text();
+			pdata.push({name:'komoditas',value: komoditas});
+			pdata.push({name:'komoditasnm',value: komoditasnm});
+		}
+
+		if($("#indikator").length>0){
+			var indikator = $("#indikator").val(),
+			indikatornm = $("#indikator option:selected").text();
+			pdata.push({name:'indikator',value: indikator});
+			pdata.push({name:'indikatornm',value: indikatornm});
+		}
+		return pdata;
+	}
+
+
+	var lvl = $("#level"),
+	prop = $("#prov"),
+	kab = $("#kab"),
+	indi = $("#indikator"),
+	kom = $("#komoditas"),
+	stsa = $("#sts_angka"),
+	sumb_data = $("#sumb_data"),
+	tahun = $("#tahun"),
+	subsektor = $("#subsektor");
+
+	/*kom.on("change", function(){
+		var komcd = $(this).val();
+		$("#satuan")
+			.empty()
+			.append('<option selected="selected" value="--">-- Pilih Satuan --</option>')
+			.append('<option selected="selected" value="00">Semua Satuan</option>');
+			$.ajax({
+			url: "satuan/getsatuan", 
+			type: 'POST',
+			data: {'komcd': komcd},
+			dataType: 'json',
+			error: function(XMLHttpRequest, textStatus, errorThrown){
+				alert('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
+			},
+			success: function(data){
+				$.each(data, function(index, element) {
+					$("#satuan").append($("<option></option>")
+					         .attr("value",element.fkeyid)
+					         .text(element.fsatuan)); 
+		        });
+			}
+    });
+	});*/
+
+	subsektor.on("change",function(){
+		var val = subsektor.val();
+		$("#komoditas")
+			.empty()
+			.append('<option selected="selected" value="00">--- Pilih Komoditas ---</option>');
+		$("#sumb_data")
+			.empty()
+			.append('<option selected="selected" value="00">--- Pilih Sumber Data ---</option>');
+			if (val > '00'){
+				$.ajax({
+					url: "https://bdsp2.pertanian.go.id/bdsp/id/subsektor/getKomBySubsektor", 
+					type: 'POST',
+					data:{'subsektorcd': val},
+					dataType: 'json',
+					error: function(XMLHttpRequest, textStatus, errorThrown){
+						alert('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
+					},
+					success: function(data){
+						$.each(data, function(index, element) {
+							$("#komoditas").append($("<option></option>")
+							         .attr("value",element.fkomcd)
+							         .text(element.fkomnm)); 
+				        });
+					}
+		    });
+
+		    $.ajax({
+					url: "https://bdsp2.pertanian.go.id/bdsp/id/sumbdata/getSumbData", 
+					type: 'GET',
+					data: {'subsektor': val},
+					dataType: 'json',
+					error: function(XMLHttpRequest, textStatus, errorThrown){
+						alert('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
+					},
+					success: function(data){
+						$.each(data, function(index, element) {
+							$("#sumb_data").append($("<option></option>")
+							         .attr("value",element.fsrccd)
+							         .text(element.fsrcnm)); 
+				        });
+					}
+		  	});
+			}
+	});
+
+	lvl.on("change",function(){
+		var val = lvl.val();
+		$('#prov')
+			.empty()
+    	.append('<option selected="selected" value="00">--- Pilih Provinsi ---</option>');
+		$('#kab')
+			.empty()
+			.append('<option selected="selected" value="00">--- Pilih Kabupaten ---</option>');
+		if((val >= '02')){
+			 	$.ajax({
+					url: "https://bdsp2.pertanian.go.id/bdsp/id/lokasi/getProv", 
+					type: 'GET',
+					dataType: 'json',
+					error: function(XMLHttpRequest, textStatus, errorThrown){
+						alert('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
+					},
+					success: function(data){
+						$.each(data, function(index, element) {
+							$("#prov").append($("<option></option>")
+							         .attr("value",element.fkode_prop)
+							         .text(element.nama_prop)); 
+				        });
+					}
+		    });
+		}else{
+			$('#prov')
+					.empty()
+    				.append('<option selected="selected" value="00">--- Pilih Provinsi ---</option>');
+    		$('#kab')
+						.empty()
+	    				.append('<option selected="selected" value="00">--- Pilih Kabupaten ---</option>');
+		}
+	});
+
+	prop.on("change",function(){
+		$('#kab')
+			.empty()
+				.append('<option selected="selected" value="00">--- Pilih Kabupaten ---</option>');
+		var val = prop.val();
+		if(lvl.val() == '03'){
+			if(val => '01'){
+				$.ajax({
+					url: "https://bdsp2.pertanian.go.id/bdsp/id/lokasi/getKab", 
+					type: 'POST',
+					data: {'fkode_prop': val},
+					dataType: 'json',
+					error: function(XMLHttpRequest, textStatus, errorThrown){
+						alert('status:' + XMLHttpRequest.status + ', status text: ' + XMLHttpRequest.statusText);
+					},
+					success: function(data){
+						$.each(data, function(index, element) {
+							$("#kab").append($("<option></option>")
+							         .attr("value",element.fkode_kab)
+							         .text(element.nama_kab)); 
+				        });
+					}
+			    });
+			}else{
+				$('#kab')
+						.empty()
+	    				.append('<option selected="selected" value="00">--- Pilih Kabupaten ---</option>');
+			}
+		}
+	});
+
+	$(":input").on("change",function(){
+		if($("#message").length>0){
+			$('#message').hide();
+		}
+	});
+</script>
+<script src="https://bdsp2.pertanian.go.id/bdsp/assets/theme/theme1/js/jquery.redirect.js"></script>
+<script src="https://bdsp2.pertanian.go.id/bdsp/assets/theme/theme1/js/actSearchExport.js"></script>            	</div>
+            </div>
+        </div>
+		
+		<div class="row">
+			<div class="navbar navbar-default navbar-green navbar-fixed-bottom">
+					<div class="col-md-12 col-xs-12 col-sm-12">
+						<p id="footerTxt" class="navbar-text pull-left">© Pusat Data dan Sistem Informasi Kementerian Pertanian 2016 </p>
+						<a id="footerBtn" href="#" class="navbar-btn btn-primary btn pull-right">Versi Bahasa Inggris</a> 
+					</div>
+			</div>
+		</div>
+		
+    </div>
+    	
+
+
+
+</body></html>
